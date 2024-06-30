@@ -15,7 +15,7 @@ void pop_back(struct Node** head)
      struct Node* tmp = *head;
      struct Node* prev = tmp;
  
-     while (tmp1->next)
+     while (tmp->next)
      {
          prev = tmp;
          tmp = tmp->next;
